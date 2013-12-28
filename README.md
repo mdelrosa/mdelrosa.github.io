@@ -1,4 +1,4 @@
 mdelrosa.github.io
 ==================
 
-mdelrosa Gihub Page
+mdelrosa Github Page
