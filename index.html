@@ -1,36 +1,37 @@
 ---
 layout: default
-title: Mason del Rosario | Home
+title: Welcome!
 ---
 
 <body>
 
 <div class="bs-masthead">
-	<h1> Mason del Rosario </h1>
-	<p class="lead"> Engineer</p>
-
-</div>
-
-<div id="home" class = "container">
-  <h1>Blog Posts</h1>
-  <div class="panel-group" id="accordion">
-    {% for post in site.posts %}
-      <div class="panel panel-default">
-      	<div class="panel-heading">
-      		<h2 class="panel-title">
-      			<a data-toggle="collapse" data-parent="#accordion" href = "#{{ post.postid }}">
-      				{{ post.title }} 
-      			</a>
-      			<small> {{ post.date }}</small>
-      		</h2>
-      	</div>
-  		<div id="#{{ post.postid }}" class="panel-collapse collapse">
-  			<div class="panel-body">
-  			{{ post.content }}
-  			</div>
-		</div>
+  <img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-frc3/177717_10150985353005909_1615519744_o.jpg">
+  <div class="masthead-content">
+  	<h1>Mason del Rosario </h1>
+  	<h3 class="lead">Lifelong student of engineering</p>
+    <div id="home" class = "container">
+      <h2>Blog Posts</h1>
+      <div class="panel-group" id="accordion">
+        {% for post in site.posts %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href = "#{{ post.postid }}">
+                  {{ post.title }} 
+                </a>
+                <small> {{ post.date }}</small>
+              </h2>
+            </div>
+            <div id="#{{ post.postid }}" class="panel-collapse collapse">
+              <div class="blog-panel panel-body">
+                {{ post.content }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
 </div>
 
