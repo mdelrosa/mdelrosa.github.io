@@ -122,6 +122,68 @@ div#projects {
   background: linear-gradient(0deg, rgb(217, 35, 15) 0%,rgb(150, 50, 50) 100%);
 }
 
+/*About page*/
+
+#about-mast {
+  background-color: #d9230f;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 2em;
+}
+
+#about-mast h1 {
+  font-size: 5em;
+  color: white;
+}
+
+#about-mast h2 {
+  font-size: 3em;
+  color:white;
+}
+
+#about-mast p {
+  font-size: 1.5em;
+  color: white;
+}
+
+#experience .container hr {
+  border-color: #d9230f;
+}
+
+#education {
+  background-color: #0f88d9;
+  color: white;
+}
+
+#experience {
+  color: #d9230f;  
+}
+
+.list-unstyled {
+  font-size: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#skills {
+  background-color: white;
+  color: #0f88d9;
+}
+
+#proj {
+  background-color: #4cd90f;
+  color: white;
+}
+
+#proj .container p{
+  font-size: 1.5em;
+}
+
+#proj .container a{
+  color: grey;
+}
+
 /*Social media buttons*/
 
 .bs-social {
