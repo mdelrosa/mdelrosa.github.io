@@ -144,7 +144,7 @@ div#projects {
 }
 
 #about-mast p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: white;
 }
 
@@ -153,31 +153,34 @@ div#projects {
 }
 
 #education {
-  background-color: #0f88d9;
+  background-color: #d9560f;
   color: white;
+  padding-bottom: 1em;
 }
 
 #experience {
   color: #d9230f;  
+  padding-bottom: 1em;
 }
 
 .list-unstyled {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #skills {
   background-color: white;
-  color: #0f88d9;
+  color: #d9560f;
+  padding-bottom: 1em;
 }
 
 #proj {
-  background-color: #4cd90f;
+  background-color: #d90f4c;
   color: white;
 }
 
 #proj .container p{
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #proj .container a{
