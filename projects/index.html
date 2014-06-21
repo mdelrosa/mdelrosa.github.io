@@ -9,7 +9,62 @@ title: Projects
 	<div id="projects" class = "page-header">
 	    <h1>Projects <small><a class="tooltip-elem" data-placement="right" data-html='true' data-original-title='<span class="glyphicon glyphicon-user"></span> # of individuals on team<br><span class="glyphicon glyphicon-wrench"></span> Involved technologies/skills<br><span class="glyphicon glyphicon-briefcase"></span> Organization/course' href="#" data-toggle="tooltip" title=""><span class="glyphicon glyphicon-info-sign"></span></a></h1>
 	</div>
+
 	<div class="panel-group" id="accordion">
+		  <!-- BATTERY CHARGER -->
+	      <div class="panel panel-default">
+	      	<div class="panel-heading">
+	      		<h1 class="panel-title project-title">
+	      			<a data-toggle="collapse" data-parent="#accordion" href = "#adc">
+	      				8-bit Flash ADC 
+	      			</a>
+	      			<small>
+	      				<span class="glyphicon glyphicon-user"></span> 3 
+	      				<span class="glyphicon glyphicon-wrench"></span> Arduino C, LTSpice, Matlab, Circuit Analysis
+	      				<span class="glyphicon glyphicon-briefcase"></span> Signals and Systems (Olin Course)
+	      				</small>
+	      		</h1>
+	      	</div>
+	  		<div id="#adc" class="panel-collapse collapse">
+	  			<div id="adc-project" class="panel-body project-body">
+	  				<img src="../images/adc.jpg">
+	  				<div class="project-content">
+		  				<h1>Discretizing an Audio Signal with an Arduino</h1>
+		  				<div class="project-text">
+		  					<p>For our final project in Olin's Signals and Systems course, we implemented an 8-bit Analog to Digital Converter (ADC). The basic principle behind a simple <a href="http://en.wikipedia.org/wiki/Flash_ADC">Flash ADC</a> is to compare a signal against the values at different nodes in a resistor ladder using comparators. By doing so, one can get a discretized version of the magnitude of the input signal. We used an Arduino Uno to read this data, and using a serial connection, we viewed the data in Matlab. The final write-up for the project can be fouund <a href="https://www.sharelatex.com/project/536161aa1b0ae7e332c55e5f?r=987d0053&rs=ps&rm=d">here</a>!</p>
+		  				</div>
+	  				</div>
+	  			</div>
+			</div>
+	      </div>
+		<!-- BATTERY CHARGER -->
+	      <div class="panel panel-default">
+	      	<div class="panel-heading">
+	      		<h1 class="panel-title project-title">
+	      			<a data-toggle="collapse" data-parent="#accordion" href = "#battery">
+	      				Simple Battery Charger 
+	      			</a>
+	      			<small>
+	      				<span class="glyphicon glyphicon-user"></span> 3 
+	      				<span class="glyphicon glyphicon-wrench"></span> Arduino C, Circuit Analysis 
+	      				<span class="glyphicon glyphicon-briefcase"></span> Power Supplies (Olin Seminar)
+	      				</small>
+	      		</h1>
+	      	</div>
+	  		<div id="#battery" class="panel-collapse collapse">
+	  			<div id="battery-project" class="panel-body project-body">
+	  				<img src="../images/whatamess.JPG">
+	  				<div class="project-content">
+		  				<h1>A Lesson in Battery Charger Design</h1>
+		  				<div class="project-text">
+		  					<p>In the pilot version of Olin College's Power Supplies seminar, we learned about circuit-level design of various forms of voltage regulators ranging from standard <a href="http://en.wikipedia.org/wiki/Linear_regulator">linear</a>, <a href="http://en.wikipedia.org/wiki/Buck_regulator">buck</a>, and <a href="http://en.wikipedia.org/wiki/Boost_regulator">boost</a> regulators to more obscure architectures like the <a href="http://en.wikipedia.org/wiki/Joule_thief">Joule Thief</a>. For our final project, we opted to use a buck regulator in constructing a simple battery charger.</p>
+
+		  					<p>The charger which we implemented was efectively a variable buck regulator whose DCM signal was set based on the charging state of the battery. If the battery was under its nominal charge, then the buck regulator was used in constant current mode. If the battery was at its nominal charge, then the regulator was used in constant voltage mode. We used an Arduino Uno to detect the battery's charge state and to control the DCM signal governing the output of the buck regulator. For more information, you can read our final write-up <a href="https://www.sharelatex.com/project/53695c20cd379f601050e6c3?r=987d0053&rs=ps&rm=d">here</a>!</p>
+		  				</div>
+	  				</div>
+	  			</div>
+			</div>
+	      </div>
 		<!-- LAMINAR FLOW -->
 	      <div class="panel panel-default">
 	      	<div class="panel-heading">
@@ -22,11 +77,11 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> Arduino C, Solidworks, Fritzing
 	      				<span class="glyphicon glyphicon-briefcase"></span> Principles of Engineering (Olin Course)
 	      				</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#laminar" class="panel-collapse collapse">
 	  			<div id="laminar-project" class="panel-body project-body">
-	  				<img src="http://aquatiklazor.files.wordpress.com/2013/12/cropped-2013-11-10-16-28-02.jpg">
+	  				<img src="../images/aqualazar.jpg">
 	  				<div class="project-content">
 		  				<h1>Smooth Streams and Blinky Lights</h1>
 		  				<div class="project-text">
@@ -48,7 +103,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> SolidWorks
 	      				<span class="glyphicon glyphicon-briefcase"></span> Personal Project
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#mendel" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
@@ -74,7 +129,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> Welding, Mechanical Design, SolidWorks
 	      				<span class="glyphicon glyphicon-briefcase"></span> Research of Electrical Vehicles at Olin (REVO)
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#revo" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
@@ -100,7 +155,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> Verilog, ModelSim
 	      				<span class="glyphicon glyphicon-briefcase"></span> Computer Architecture (Olin Course)
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#mips" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
@@ -126,7 +181,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> Node.js, MongoDB, Linode, HTML/CSS, Jquery
 	      				<span class="glyphicon glyphicon-briefcase"></span> Autonomous Humans Lab
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#survo" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
@@ -152,7 +207,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> LTSpice, Circuit Design, Matlab
 	      				<span class="glyphicon glyphicon-briefcase"></span> Real World Measurements (Olin Course)
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#lazar" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
@@ -178,7 +233,7 @@ title: Projects
 	      				<span class="glyphicon glyphicon-wrench"></span> Solidworks, Mechanical Design
 	      				<span class="glyphicon glyphicon-briefcase"></span> Design Nature (Olin Course)
 	      			</small>
-	      		</h2>
+	      		</h1>
 	      	</div>
 	  		<div id="#teamsnake" class="panel-collapse collapse">
 	  			<div class="panel-body project-body">
