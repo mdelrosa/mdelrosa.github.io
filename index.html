@@ -5,15 +5,187 @@ title: Welcome!
 
 <body>
 
-<div class="bs-masthead">
+<div id="wrapper" class="divided">
   <img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-frc3/177717_10150985353005909_1615519744_o.jpg">
-  <div class="masthead-content">
-  	<h1>Mason del Rosario </h1>
-  	<h3 class="lead">Lifelong student of engineering</p>
-    <div id="home" class = "container">
-      <h2>Blog Posts</h1>
-      <div class="panel-group" id="accordion">
-        {% for post in site.posts %}
+  <section class="banner onload-image-fade-in onload-content-fade-right color0 - style3 orient-center content-align-center image-position-center">
+    <div class="content">
+      <h1>Mason del Rosario</h1>
+      <p class="major">Engineering - Design - Sustainability</p>
+<!--       <ul class="actions vertical">
+        <li><a href="#first" class="button big wide smooth-scroll-middle">Get in Touch</a></li>
+      </ul> -->
+    </div>
+    <div class="image">
+      <img src="images/headshot.jpg" alt="">
+    </div>
+  </section>
+<!-- Spotlight -->
+<section class="wrapper color0 style1 align-center invert">
+            <div class="inner">
+<!--               <h2>Education</h2>
+              <p></p> -->
+              <div class="index align-left">
+
+                <!-- Definition List -->
+                  <section>
+                    <header>
+                      <h3>Education</h3>
+                    </header>
+                    <div class="content">
+
+                      <dl>
+                        <dt>Olin College of Engineering</dt>
+                        <dd>
+                          <ul class="alt">
+                            <li>B.S. Electrical and Computer Engineering - 2016</li>
+                            <li><b>Course Highlights:</b>
+                              <ul>
+                                <li>Engineering: Controls, Elecanisms, Analog and Digital Communications, Power Supply Design, High Voltage Electronics, Microelectronic Circuits, MADVLSI</li>
+                                <li>Design: Design Nature, User-Oriented Collaborative Design, Sustainable Design</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </dd>
+
+                      </dl>
+
+                    </div>
+                  </section>
+  </section>
+<!-- Projects Gallery -->
+<section class="wrapper color0 style1 align-center">
+  <div class="inner">
+    <h1>Experience</h1>
+    <p>My professional background.</p>
+  </div>
+  <!-- Gallery -->
+    <div class="gallery style1 medium lightbox onscroll-fade-in">
+      <div class="modal" tabindex="-1">
+        <div class="inner"><img src=""></div>
+      </div>
+      <div class="forward"></div>
+      <div class="backward"></div>
+      <div class="inner" style="overflow: hidden;"></div>
+      <!-- Tesla (Full-Time) -->
+      <article>
+        <a href="images/gallery/fulls/m3-silver.jpg" class="image">
+          <img src="images/gallery/thumbs/tesla.jpg" alt="">
+        </a>
+        <div class="caption">
+          <h3>Test Engineer</h3>
+          <p>June 2016 - Present</p>
+          <ul class="actions">
+            <li><span class="button small">Details</span></li>
+          </ul>
+        </div>
+      </article>
+      <!-- Levant -->
+      <article>
+        <a href="images/gallery/fulls/clearmotion.jpg" class="image">
+          <img src="images/gallery/thumbs/levant.png" alt="">
+        </a>
+        <div class="caption">
+          <h3>Systems Integration Co-op</h3>
+          <p>November 2015 - May 2016</p>
+          <ul class="actions">
+            <li><span class="button small">Details</span></li>
+          </ul>
+        </div>
+      </article>
+      <!-- Tesla (Internship) -->
+      <article>
+        <a href="images/gallery/fulls/mx-white.jpg" class="image" title="Hey There">
+          <img src="images/gallery/thumbs/tesla.jpg" alt="">
+        </a>
+        <div class="caption">
+          <h3>Component Test Intern </h3>
+          <p>January 2015 - August 2015</p>
+          <ul class="actions">
+            <li><span class="button small">Details</span></li>
+          </ul>
+        </div>
+      </article>
+      <!-- Dynamo  -->
+      <article>
+        <a href="images/gallery/fulls/dynamo.png" class="image">
+          <img src="images/gallery/thumbs/dynamo.png" alt="">
+        </a>
+        <div class="caption">
+          <h3>Engineering Intern</h3>
+          <p>May 2014 - August 2014</p>
+          <ul class="actions">
+            <li><span class="button small">Details</span></li>
+          </ul>
+        </div>
+      </article>
+    </div>
+</section>
+
+<section class="wrapper invert style1 align-center">
+  <div class="inner">
+    <h2>Projects</h2>
+    <p>A gallery of the projects to which I have contributed.</p>
+    <div class="items style1 medium onscroll-fade-in">
+      <section>
+        <span class="icon style2 major fa-motorcycle"></span>
+        <h3>Harley-Davidson SCOPE</h3>
+        <p>Acted as liaison between Olin student team and Harley-Davidson engineers. Project archival poster <a href='http://olin.edu/sites/default/files/2016hd_archivalposter.pdf'>here</a>. More info <a href='http://bit.ly/harley-davidson-scope'>here</a>.</p>
+      </section>
+      <section>
+        <span class="icon style2 major fa-leaf"></span>
+        <h3>Rice and Sustainability</h3>
+        <p>Collaborated with other students to evaluate <a href='https://www.scribd.com/document/360903616/00-Rice-Experience'>the experience</a> of cooking rice, the <a href='https://www.scribd.com/document/360904402/01-Rice-Impact'>environmental impact</a> associated with cooking rice, and an <a href='https://www.scribd.com/document/360904449/02-Rice-Final-Design-Description'>alternative design</a> with less impact.</p>
+      </section>
+      <section>
+        <span class="icon style2 major fa-rocket"></span>
+        <h3>Space Origin: X</h3>
+        <p>Programmed kinematic rocket model of falling rocket in embedded C. Designed website. Project site <a href='http://bit.ly/elecanisms-sox'>here</a>.</p>
+      </section>
+      <section>
+        <span class="icon style2 major fa-bolt"></span>
+        <h3>Analog Levitation</h3>
+        <p>Designed and built analog circuit which utilized light-based feedback to suspend a metal ball in mid-air. Demo video <a href='http://bit.ly/controls-maglev'>here</a>.</p>
+      </section>
+       <section>
+        <span class="icon style2 major fa-user"></span>
+        <h3>Design for Blacksmiths</h3>
+        <p>Studied blacksmiths, identified their pain-points, and developed a concept for a thermally-insulated smart glove, removing the need for tongs.</p>
+      </section>
+    </div>
+  </div>
+</section>
+<!-- <section class="wrapper style1 align-center"
+  <div class="gallery style1 medium lightbox">
+    <article>
+      <a href="(full image URL)" class="image">
+        <img src="(thumbnail image URL)" alt="Alternate text" />
+      </a>
+      <div class="caption">
+        (caption)
+      </div>
+    </article>
+    <article>
+      <a href="(full image URL)" class="image">
+        <img src="(thumbnail image URL)" alt="Alternate text" />
+      </a>
+      <div class="caption">
+        (caption)
+      </div>
+    </article>
+    <article>
+      <a href="(full image URL)" class="image">
+        <img src="(thumbnail image URL)" alt="Alternate text" />
+      </a>
+      <div class="caption">
+        (caption)
+      </div>
+    </article>
+  </div>
+</section> -->
+
+      <!-- <h2>Under Construction</h2> -->
+      <!-- <div class="panel-group" id="accordion"> -->
+<!--         {% for post in site.posts %}
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2 class="panel-title">
@@ -29,10 +201,9 @@ title: Welcome!
               </div>
             </div>
           </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+        {% endfor %} -->
+      <!-- </div> -->
 </div>
+
 
 </body>
