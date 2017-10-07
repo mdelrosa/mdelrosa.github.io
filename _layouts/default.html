@@ -1,7 +1,7 @@
 ---
 username: mdelrosa
 ---
-
+  
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,59 +11,68 @@ username: mdelrosa
         <meta name="viewport" content="width=device-width">
 
         <!-- Dependencies -->
-        <link rel="stylesheet" href="/css/simplex.css">
+        <!-- <link rel="stylesheet" href="/css/simplex.css"> -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
         <!-- Custom Script -->
-        <script src="/scripts/main.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.scrollex.min.js"></script>
+        <script src="/js/jquery.scrolly.min.js"></script>
+        <script src="/js/skel.min.js"></script>
+        <script src="/js/util.js"></script>
+        <script src="/js/main.js"></script>
+        <!-- <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.e722c258c2de2a7c30637037cf3fc66c.js"></script>
+        <script type="text/javascript" src="/js/demo.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+ -->    </head>
+    <body id="demo" class="dark">
 
-    </head>
-    <body>
-
-      <header class="navbar navbar-inverse vbar-absolute na navbar-fixed-top bs-docs-nav" role="banner">
-        <div class="container">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="/" class="navbar-brand">mdelrosa</a>
-          </div>
-          <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <!-- <header class="navbar navbar-inverse vbar-absolute na navbar-fixed-top bs-docs-nav" role="banner"> -->
+      <header id="demo-header">
+          <!-- <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
               <li>
+                <a href="/">mdr</a>
                 <a href="/projects">Projects</a>
               </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="/about">About</a>
-              </li>
-            </ul>
+            </ul> -->
+            <div class="left">
+              <h1>mdr</h1>
+              <ul class="selector">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/bookshelf">Bookshelf</a></li>
+              </ul>
+            </div>
           </nav>
-        </div>
       </header>
 
       <main id="content">
           {{ content }}
       </main>
 
-      <footer class="footer">
-        <div id="signature">
-        <p>Mason del Rosario &copy; 2014</p>
-        </div>
-        <div class="bs-social">
+      <footer class="footer wrapper style1 align-center">
+<!--         <div id="signature">
+        <p>Mason del Rosario &copy; 2017</p>
+        </div> -->
+<!--         <div class="bs-social">
           <ul class="bs-social-buttons">
             <li><a href="https://grabcad.com/mason.del.rosario-1"><img class="img-rounded" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/7b766ae1205940aca53f9399c67d9490/large.png"> </img></a></li>
             <li><a href="https://github.com/mdelrosa"><img class="github-badge img-rounded" src="http://komelin.com/sites/all/themes/komelin/images/icons/github.jpg"> </img></a></li>
             <li><a href="http://www.linkedin.com/in/masondelrosario/"><img class="img-rounded" src="http://www.geography.ohio-state.edu/img/socialnetworking/linkedin-logo_small.gif"> </img></a></li>
           </ul>
-        </div>
-
+        </div> -->
+        <div class="inner">
+              <ul class="icons">
+                <!-- <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
+                <!-- <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li> -->
+                <li><a href="https://www.instagram.com/scoundelro13/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/in/masondelrosario/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <!-- <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li> -->
+              </ul>
+              <p>© Mason del Rosario 2017. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </div>
       </footer>
 
     </body>
