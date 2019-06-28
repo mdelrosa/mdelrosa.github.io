@@ -105,4 +105,4 @@ Moving forward, the `pyldpc` library will provide a means for evaluating whateve
 - <a name='r1'>[1]</a>. hichamjanati, [pyldpc repository](https://github.com/hichamjanati/pyldpc/blob/master/pyldpc/decoder.py)
 - <a name='r2'>[2]</a>. T. J. Richardson, M. A. Shokrollahi and R. L. Urbanke, "Design of capacity-approaching irregular low-density parity-check codes," in IEEE Transactions on Information Theory, vol. 47, no. 2, pp. 619-637, Feb 2001.
 
-[ber]: /images/blog/2019/06/27/ldpc_ber_18_12.PNG
+[ber]: /images/blog/2019/06/27/ldpc_ber_18_12.png
