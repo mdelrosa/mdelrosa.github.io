@@ -12,7 +12,7 @@ This post takes the following structure:
 - Low-Density Parity Check (LDPC) codes
 - Design of LDPC and Machine Learning
 
-### Error correcting codes
+### 1. Error correcting codes
 
 <!-- As electrical engineers, our introduction to wireless communications is analog. While  -->
 
@@ -61,7 +61,7 @@ Turns out that there are better ways to construct ECCs which overcome these limi
 
 For the remainder of this article, we focus our attention on a particular family of linear block codes: **Low-Density Parity Check codes**.
 
-### Low-Density Parity Check (LDPC) codes
+### 2. Low-Density Parity Check (LDPC) codes
 
 **Parity check** codes detect and correct errors by checking whether the decoded codewords satisfy a system of linear equations. Given codewords of length \\(n\\) comprised of symbols \\(\{x_1, x_2, \dots, x_n\}\\), the codewords satisfy the parity check equations:
 
@@ -100,7 +100,7 @@ So what makes LDPC codes 'low density'? The density of \\(H\\) can be thought of
 
 Decoding of LDPC codes is accomplished by [belief propagation](https://en.wikipedia.org/wiki/Belief_propagation) and variations thereof (e.g., the sum-product algorithm). Python implementations of this algorithm exist [3], and I hope to cover its utilization in a future post.
 
-### Design of LDPC and Machine Learning
+### 3. Design of LDPC and Machine Learning
 
 So where does machine learning come into play? Without diving too deep into notation, the design of these LDPC codes involves the specifcation of degree polynomials which describe the sparsity of \\(H\\). The predominant algorithm used to optimize these polynomials is called **density evolution** [4]. Density evolution involves incrementally adjusting the coefficients in the degree polynomials and assessing how the Block Error Rate (BER) is affected.
 
@@ -108,7 +108,7 @@ This mechanism is reminiscent of **reinforcement learning**, a field of machine 
 
 In the near future, I hope to have some preliminary results on a reinforcement learning approach to adjusting the degree polynomials.
 
-### References
+### 4. References
 
 - [1] J. K. Wolf, 'An Introduction to Error Correcting Codes Part 3,' UCSD ECE154C Lecture slides. Spring 2010. [Link](http://circuit.ucsd.edu/~yhk/ece154c-spr16/pdfs/ErrorCorrectionIII.pdf)
 - [2] B. P. Lathi, and Z. Ding, 'Low-Density Parity Check (LDPC) Codes', Ch 14, Sec 12 of *Modern Digital and Analog Communications Systems.*
