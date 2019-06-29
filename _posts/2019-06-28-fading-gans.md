@@ -256,5 +256,5 @@ I cherry-picked the figures at particular epochs since they closely resembled th
 
 <!-- Example ref tag: [2](#r2) -->
 
-[chan_gan]: /images/blog/2019/06/28/chan_gan.png
+[chan_gan]: /images/blog/2019/06/28/chan_gan.PNG
 <!-- [awgn_train]: /images/blog/2019/06/28/awgn_0300.png -->
