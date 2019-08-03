@@ -238,7 +238,7 @@ So can we model non-Gaussian distributions with the given architecture? The chi-
 
 The results of the fading channel tests make the generalizability of the architecture seem doubtful. The original motivation for increasing the dimensionality of the sampling layer was to see if more Guassians would give the generator enough degrees of freedom to replicate a uniform distribution, but doubling this value did not do the trick.
 
-In future work, I might take a different tack at answering this question. Some thoughts:
+In future work, I might take a different tack at answering this question. Some thoughts: 
 
 - Can we use different distributions in variational layer (e.g., uniform) to model non-Gaussian channels?
 - Does higher dimensionality of the sampling layer have an effect?
