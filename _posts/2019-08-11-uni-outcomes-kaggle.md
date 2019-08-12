@@ -83,8 +83,8 @@ So no groundbreaking discoveries regarding university outcomes and rankings to b
 
 In the future, I'd like to find some different datasets with more features relating to student outcomes (i.e., starting salaries, graduate school admissions, postdoctoral positions, fellowships, etc.). 
 
-[count]: /images/blog/2019/08/11/count.PNG
-[glob1]: /images/blog/2019/08/11/glob-corr1.PNG
-[glob2]: /images/blog/2019/08/11/glob-corr2.PNG
-[us1]: /images/blog/2019/08/11/us-corr1.PNG
-[us2]: /images/blog/2019/08/11/us-corr2.PNG
+[count]: /images/blog/2019/08/11/count.png
+[glob1]: /images/blog/2019/08/11/glob-corr1.png
+[glob2]: /images/blog/2019/08/11/glob-corr2.png
+[us1]: /images/blog/2019/08/11/us-corr1.png
+[us2]: /images/blog/2019/08/11/us-corr2.png
