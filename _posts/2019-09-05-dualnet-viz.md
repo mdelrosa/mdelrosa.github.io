@@ -132,9 +132,9 @@ Finally, we compare the network's output, the learned CSI, to the true downlink 
 - <a name='r2'>[2]</a>. Pierobon, G. "Visualizing intermediate activation in Convolutional Neural Networks with Keras," Medium. November 2018. [Link](https://towardsdatascience.com/visualizing-intermediate-activation-in-convolutional-neural-networks-with-keras-260b36d60d0)
 - <a name='r3'>[3]</a>. DLinWL, [Bi-Directional-Channel-Reciprocity](https://github.com/DLinWL/Bi-Directional-Channel-Reciprocity)
 
-[corr]: /images/blog/2019/09/05/corr.png
-[dualnetmag]: /images/blog/2019/09/05/dualnetmag.png
-[summary]: /images/blog/2019/09/05/summary.png
+[corr]: /images/blog/2019/09/05/corr.PNG
+[dualnetmag]: /images/blog/2019/09/05/dualnetmag.PNG
+[summary]: /images/blog/2019/09/05/summary.PNG
 [conv1]: /images/blog/2019/09/05/res1/conv2d_1.png
 [batch1]: /images/blog/2019/09/05/res1/batch_normalization_1.png
 [relu1]: /images/blog/2019/09/05/res1/leaky_re_lu_1.png
