@@ -26,7 +26,7 @@ With this observation, DualNet is tailored to accept either the magnitude or the
 <center>
 <small>Figure 2: Block diagram for DualNet-MAG, a deep neural network that estimates downlink CSI based on correlations between the magnitude of uplink and downlink CSI.</small></center><br>
 
-The Keras implementaion of DualNet-MAG and DualNet-ABS can be found in [[3](#r3)]. Assuming a compression ratio of \\(1/4\\), the network summary is shown in Figure 3. Even though there are only 32 antennas, the number of trainable parameters is already fairly large (\\(\approx 8\cdot 10^5\\)). However, the preponderance (about \\(\approx 99%\\)) of the parameters appear to be in the Dense layers.
+The Keras implementaion of DualNet-MAG and DualNet-ABS can be found in [[3](#r3)]. Assuming a compression ratio of \\(1/4\\), the network summary is shown in Figure 3. Even though there are only 32 antennas, the number of trainable parameters is already fairly large (\\(\approx 8\cdot 10^5\\)). However, the preponderance (\\(\approx 99\%\\)) of the parameters appear to be in the Dense layers.
 
 ![DualNet-MAG Summary][summary]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
 
