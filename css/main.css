@@ -19,6 +19,34 @@
 	display: inline;
 }
 
+.carousel-outer {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -15px 0;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+    background-color: grey;
+}
+
+.cropped {
+    width: 200px; /* width of container */
+    height: 300px; /* height of container */
+    overflow: hidden;
+    /*border: 5px solid black;*/
+}
+
+.cropped img {
+    margin: -10px 0px 0px -180px;
+}
+
+.carousel-caption h4 {
+	color: white;
+}
+
+.carousel-crop {
+	  clip: rect(0px,60px,200px,0px);
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
