@@ -4,40 +4,53 @@ title:  "The Landscape of Online Engineering Education"
 tags: ['Engineering Education']
 ---
 
-*This post was written to satisfy the final project requirement for the Winter 2020 offering of ECI289C: Engineering Planning taught by [Dr. Colleen Bronner](https://faculty.engineering.ucdavis.edu/bronner/).*
+*This post was written to complete the final project requirement for the Winter 2020 offering of ECI289C: Engineering Planning taught by [Dr. Colleen Bronner](https://faculty.engineering.ucdavis.edu/bronner/).*
 
-As a graduate student wrapping up my coursework, many of my interactions with instructors happen in virtual space. Platforms like Canvas, Piazza, and Slack facilitate distribution of course materials, discussion among course stakeholders, and delivery of assessments to students. Some professors and teachers offer [digital office hours](https://ctl.byu.edu/tip/3-ways-hold-virtual-office-hours) via video conferencing tools (e.g., Zoom, Skype, Google Hangouts).
+In engineering courses across the country, more and more interactions between instructors and students are happening in virtual space. Platforms like Canvas, Piazza, and Slack facilitate distribution of course materials, discussion among course stakeholders, and delivery of assessments to students. Some professors and teachers offer [digital office hours](https://ctl.byu.edu/tip/3-ways-hold-virtual-office-hours) via video conferencing tools (e.g., Zoom, Skype, Google Hangouts).
 
 Given our reliance on online tools for conducting courses, I began to wonder, **"Why can't I earn my engineering degree without ever setting foot in a classroom?"** Offering such online programs could have at least two major benefits:
 
-1. **Accessibility** - As of Q3 of 2019, the sum total of outstanding student loans in the United States was [$1.5 trillion](https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/hhdc_2019q3.pdf). Imagine if a student could get an engineering degree from a top accredited program from the comfort of home. In theory, providers of remote learning could funnel funds which typically go into overhead costs (i.e., departmental facilities, dormitories, and dining halls) into crafting better content which can be delivered to a wide audience.
-2. **Robustness** - At the time of writing, [135 U.S. colleges have cancelled in-person classes](https://www.forbes.com/sites/lisettevoytko/2020/03/10/at-least-45-colleges-have-cancelled-in-person-classes-so-far-over-coronavirus-fears/#645d0cc54673) due to the coronavirus pandemic. Here at UC Davis, many faculty are scrambling to figure out how to transition to online platforms for administering final exams. Imagine an educational environment that could proceed uninhibited by similar Black Swan events.
+1. **Increase accessibility to engineering education** - As of Q3 of 2019, the sum total of outstanding student loans in the United States was [$1.5 trillion](https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/hhdc_2019q3.pdf). Imagine if a student could get an engineering degree from a top accredited program from the comfort of home. In theory, providers of remote learning could funnel funds which typically go into overhead costs (i.e., departmental facilities, dormitories, and dining halls) into crafting better content which can be delivered to a wide audience.
+2. **Make our educational networks more robust** - At the time of writing, [135 U.S. colleges have cancelled in-person classes](https://www.forbes.com/sites/lisettevoytko/2020/03/10/at-least-45-colleges-have-cancelled-in-person-classes-so-far-over-coronavirus-fears/#645d0cc54673) due to the coronavirus pandemic. Here at UC Davis, many faculty are scrambling to figure out how to transition to online platforms for administering final exams. Online degree programs offer an educational environment that could proceed uninhibited by similar Black Swan events.
 
 Assuming a purely online degree program could make good on the promise of delivering accessible and robust engineering education, that could be a major disruption to the education industry.
 
 In recent years, organizations in both academia and industry have established platforms for online engineering education. There are at least three categories which I would bin these efforts into:
 
 1. Open Education Resources
-2. Certification Programs
-3. Accredited Degree Programs
+2. Online Certification Programs
+3. Online Degree Programs
 
 This post investigates the viability of these different platform categories by attempting to answer the following questions for each:
 
 1. How effective are online platforms for engineering education?
 2. Do these online platforms offer accredited degrees in engineering?
-3. Do these platforms make for more accessible and robust educational experiences?
+3. Do these platforms make for more accessible educational experiences?
 
-## Effectiveness: To the Research!
+Let's address effectiveness, accreditation, and accessibility before describing online learning platforms.
 
-Before defining the different platforms, we should address the question: **"Are online tools effective for engineering eduction?"** In *Online Engineering Education: Learning Anywhere, Anytime* [[1]](#r1), researchers from the Sloan Consortium highlighted some research findings on internet-based teaching and learning, including:
+### Effectiveness: To the Research!
+
+The definition of effectiveness means different things to different people, as outlined by Jenkins [[9]](#r9) with the Community College Research Center (CCRC), who distinguishes *institutional effectiveness* from *instructional effectiveness*. The former emphasizes student retention and course completion while the latter focuses on student learning.
+
+In *Online Engineering Education: Learning Anywhere, Anytime* [[1]](#r1), researchers from the Online Learning Consortium (OLC; formerly the Sloan Consortium) highlighted some research findings on the instructional effectiveness of internet-based engineering education, including:
 
 - "...no significant difference in learning outcomes for online and on-campus students as measured by test scores... reported over the last decade in the *Journal of Asynchronous Learning Networks (JALN)*."
 - Self-directed learning approaches (called *constructivist learning* [[2]](#r2)) work well online.
-- Faculty and students are pleased with their online teaching and learning experiences.
+
+Xu and Jaggars [[8]](#r8) with the CCRC investigated the performance discrepancies between students enrolled in online and hybrid courses; the authors reported problematic aspects  associated with Washington State's online program (WashingtonOnline), namely,
+
+> ...students who took online coursework in early terms were slightly but significantly less likely to return to school in subsequent terms, and students who took a higher proportion of credits online were slightly but significantly less likely to attain an educational award or transfer to a four-year institution.
+
+The authors cite a few reasons for this attrition, including technical difficulties, a sense of social distance/isolation, and limited online student support services, and they recommend expansion of dedicated online support services as well as faculty training in online pedagogy.
+
+*The upshot*: online engineering education can be *instructionally effective* if instructors are designing their courses and if the administration takes a hands-on approach in supporting students.
+
+### Accreditation: What is it Good For?
 
 For the remainder of this post, I will discuss whether or not a given platform offers an accredited degree. **Accreditation** is a process where a degree program submits itself voluntarily to review by an independent evaluation by a board of experts [[3]](#r3). In engineering education, the major body that administers these reviews is the Accreditation Board for Engineering and Technology (known as ABET).
 
-The Sloan paper [[1]](#r1) also touches on how online instuction methods can bolster the student competencies listed in [General Criterion 3 for ABET accreditation](https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2016-2017/) (see Figure 1).
+The OLC paper [[1]](#r1) also touches on how online instuction methods can bolster the student competencies listed in [General Criterion 3 for ABET accreditation](https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2016-2017/) (see Figure 1).
 
 ---
 <!-- Carousel for Fig. 1 -->
@@ -161,18 +174,30 @@ The Sloan paper [[1]](#r1) also touches on how online instuction methods can bol
 		</div>
 	</div>
 	<br>
-	<small>Figure 1: ABET student outcomes and potential value added by online methods.</small>
+	<small>Figure 1: ABET student outcomes (as per General Criterion 3) and potential value added by online methods.</small>
 	<br>
 </center>
 
 ---
 
-[Socioeconomics](https://theconversation.com/online-learning-will-be-hard-for-kids-whose-schools-close-and-the-digital-divide-will-make-it-even-harder-for-some-of-them-133338)? [Original paper]( https://journals.sagepub.com/doi/10.3102/00346543075003417)
+Accreditation is important since, in theory, it shows proof of quality. The ABET criteria all emphasize student outcomes, i.e. *instructional effectiveness* in engineering programs. In this way, effectiveness and accreditation have some amount of tacit synergy.
+
+### Accessibility: The Barriers to Education
+
+The financial barriers to attaining advanced degrees are outpacing our ability to earn capital to overcome those barriers. Since the 1980's, [tuition for university degrees have increased at 8 times as quickly as wages](https://www.forbes.com/sites/camilomaldonado/2018/07/24/price-of-college-increasing-almost-8-times-faster-than-wages/#5d4e0cb966c1). For this reason, I choose to focus on *financial accessibility* for this post, as I believe that on average, online programs can help us break down the cost barrier.
+
+However, I do not believe that cheaper programs will be the only factor in making engineering education more accessible. For one thing, socioeconomic status effects learners earlier than the point of university enrollment. For example, K-12 students from low-income households who lack access to reliable internet access and computers [perform less well than their wealthier counterparts](https://theconversation.com/online-learning-will-be-hard-for-kids-whose-schools-close-and-the-digital-divide-will-make-it-even-harder-for-some-of-them-133338).
+
+<!-- [Original paper]( https://journals.sagepub.com/doi/10.3102/00346543075003417) -->
+
+Furthermore, lack of representation can make the engineering disciplines unwelcoming to prospective entrants. According to the NSF's National Center for Science and Engineering Statistics, women earned [20.9% of all engineering degrees awarded in 2016](https://ncses.nsf.gov/pubs/nsf19304/digest/field-of-degree-women#engineering) and [50.9% of those degree recipients were white](https://ncses.nsf.gov/pubs/nsf19304/digest/field-of-degree-minorities). Encouraging diversity, equity, and inclusion in engineering might serve to make engineering more accessible to underrepresented minorities.
+
+The representation barrier to accessibility is salient, and I think online engineering education might be able to address it (more on that in the Coda). For the time being, I restrict my attention to financial accessibility.
 
 Now, let's focus in on the respective online learning platforms.
 
 ## Open Education Resources (OERs)
-Open education resources aggregate different [learning objects](https://en.wikipedia.org/wiki/Learning_object) and make them publicly available free of charge under an open license. The most prevalent example of an OER is MIT's [OpenCourseWare (OCW)](https://ocw.mit.edu/index.htm), which hosts lectures, course notes, problem sets, and exams from previous offerings of actual MIT courses under the [Creative Commons License](https://ocw.mit.edu/terms/#cc). Video 1 is the fully recorded first lecture from the excellent Linear Algebra course on OCW.
+Open education resources aggregate different [learning objects](https://en.wikipedia.org/wiki/Learning_object) and make them publicly available free of charge under an open license. One prevalent example of an OER is MIT's [OpenCourseWare (OCW)](https://ocw.mit.edu/index.htm), which hosts lectures, course notes, problem sets, and exams from previous offerings of actual MIT courses under the [Creative Commons License](https://ocw.mit.edu/terms/#cc). Video 1 is the fully recorded first lecture from the excellent Linear Algebra course on OCW.
 
 ---
 <center>
@@ -187,18 +212,18 @@ Open education resources aggregate different [learning objects](https://en.wikip
 </center>
 ---
 
-The criterion of accreditation does not really apply here. In themselves, OERs are not  so we can focus on *effectiveness,* *accessibility,* and *robustness.*
+The criterion of accreditation does not really apply here, as OERs are not in themselves degree-offering programs. So we can focus on *effectiveness* and *accessibility.*
 
-The research into *effectiveness* of OERs in student outcomes has been middling, and Grimaldi et. al [[4]](#r4) discuss some of the reasons why. The former, open education resources could serve to bolster in-person teaching and learning, as instructors might include them in "Additional Readings" sections in their syllabi.
+**Effectiveness**: The research into *effectiveness* of OERs in student outcomes has been middling, and Grimaldi et. al [[4]](#r4) discuss some of the reasons why. The former, open education resources could serve to bolster in-person teaching and learning, as instructors might include them in "Additional Readings" sections in their syllabi.
 
-The case for *accessibility* of OERs is self-evident; by publishing a large body of freely available learning objects. However, this presumes that all students have access to decent computers and internet connections, which is likely correlated with socioeconomic status (i.e., students from wealthier backgrounds have better technology available than students from less wealthy backgrounds).
+**Accessibility**: The case for *accessibility* of OERs is self-evident; by publishing a large body of freely available learning objects. However, this presumes that all students have access to decent computers and internet connections, which is likely correlated with socioeconomic status (i.e., students from wealthier backgrounds have better technology available than students from less wealthy backgrounds).
 
 Furthermore, merely distributing course materials does not offer the same educational experience that one has in a university classroom. Marc Clarà [[5]]($r5) grounds this notion in developmental psychology through his discussion of Vygotsky's theory of the "Zone of Proximal Development," arguing
 > ...*conceptual development is driven only by instruction that promotes the [learner's] formation of nonspontaneous meaning.* 
 
-(Here, *nonspontaneous meaning* can be taken to mean *scientific or mathematical concept*.) We can see that on their own, OERs might fall short in both the departments of effectiveness and accessibility (to instructors), as they do not offer any form of direct instruction.
+(Here, *nonspontaneous meaning* can be taken to mean *scientific or mathematical concept*.) We can see that on their own, OERs might fall short in both the departments of effectiveness and accessibility. A database of resources does not give an individual learner *access* to peers and instructors who enable them to grasp difficult concepts, reducing the ultimate *instructional effectiveness* of these platforms.
 
-On the upside, OERs seem to be a rather *robust.* By democratizing learning objects, individuals can engage with materials whenever and wherever they like, allowing for decentralized and asynchronous learning.
+<!-- On the upside, OERs seem to be a rather *robust.* By democratizing learning objects, individuals can engage with materials whenever and wherever they like, allowing for decentralized and asynchronous learning. -->
 
 ## Online Certification Programs
 
@@ -220,25 +245,25 @@ While OERs often take materials and lectures from in-person classes and merely p
 
 ---
 
-OCPs like Udacity typically [do not offer accredited degrees](https://udacity.zendesk.com/hc/en-us/articles/360015779092-Is-Udacity-an-accredited-educational-institution-). OCPs target market appears to be professionals who want to develop practical, career-oriented skills within their competencies or who want to make a career transition. Indeed, OCPs like [eCornell](https://www.ecornell.com/) offer programs, such as ["Engineering Leadership"](https://www.ecornell.com/certificates/leadership-and-strategic-management/engineering-leadership/) which comes with an "Engineering Leadership Certificate" as well as Professional Development Hours (see Figure 2).
-
----
-!["Engineering Leadership"][eCornell]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
-<center>
-<small>Figure 2: Information on eCornell's "Engineering Leadership" certificate.</small></center>
-
----
-
-From an effectiveness standpoint, there is not a wealth of published research on OCPs. I suspect most researchers of engineering education  design and carry out their experiments in own respective classrooms, and the set of the instructors of OCPs must not overlap substantially with the set of engineering education researchers. OCPs self-report on the efficacy of their programs by touting the promotions and jobs which their participants secure (e.g., Figure 3).
+**Effectiveness**: From an effectiveness standpoint, there is not a wealth of published research on OCPs. I suspect most researchers of engineering education  design and carry out their experiments in own respective classrooms, and the set of the instructors of OCPs must not overlap substantially with the set of engineering education researchers. OCPs self-report on the efficacy of their programs by touting the promotions and jobs which their participants secure (e.g., Figure 2).
 
 ---
 ![Testimonials from Udacity][uda_success]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
 <center>
-<small>Figure 3: <a href="https://www.udacity.com/success">Testimonials</a> on the impact of Udacity programs.</small></center>
+<small>Figure 2: <a href="https://www.udacity.com/success">Testimonials</a> on the impact of Udacity programs.</small></center>
 
 ---
 
-From an financial accessibility standpoint, these programs have a range of price tags. For example, the average cost of a Udacity "Nanodegree" program is about $1355 (Figure 4). For an established professional with a steady income, this might be affordable, but for less economically advantaged individuals, this might be out of the question. As a another OCP alternative, Coursera offers "specialization programs" which range from $156-$474 total cost (based on monthly rate estimates [available here](http://www.arcytech.org/coursera/)).
+**Accreditation**: OCPs like Udacity typically [do not offer accredited degrees](https://udacity.zendesk.com/hc/en-us/articles/360015779092-Is-Udacity-an-accredited-educational-institution-). OCPs target market appears to be professionals who want to develop practical, career-oriented skills within their competencies or who want to make a career transition. Indeed, OCPs like [eCornell](https://www.ecornell.com/) offer programs, such as ["Engineering Leadership"](https://www.ecornell.com/certificates/leadership-and-strategic-management/engineering-leadership/) which comes with an "Engineering Leadership Certificate" as well as Professional Development Hours (see Figure 3).
+
+---
+!["Engineering Leadership"][eCornell]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
+<center>
+<small>Figure 3: Information on eCornell's "Engineering Leadership" certificate.</small></center>
+
+---
+
+**Accessibility**: From an financial accessibility standpoint, these programs have a range of price tags. For example, the average cost of a Udacity "Nanodegree" program is about $1355 (Figure 4). For an established professional with a steady income, this might be affordable, but for less economically advantaged individuals, this might be out of the question. As a another OCP alternative, Coursera offers "specialization programs" which range from $156-$474 total cost (based on monthly rate estimates [available here](http://www.arcytech.org/coursera/)).
 
 ---
 ![Nanodegree Cost Histogram][uda_cost]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
@@ -247,13 +272,17 @@ From an financial accessibility standpoint, these programs have a range of price
 
 ---
 
-OCPs seem promising in making engineering education robust against external shocks. In the wake of the COVID19 pandemic, Coursera has [opened up their entire course catalog](https://www.coursera.org/coronavirus) to impacted universities and organizations. If programs and engineering educators find UDPs to be successful in the context of social distancing, more stakeholders might decide to integrate distance learning into their respective programs.
+<!-- OCPs seem promising in making engineering education robust against external shocks. In the wake of the COVID19 pandemic, Coursera has [opened up their entire course catalog](https://www.coursera.org/coronavirus) to impacted universities and organizations. If programs and engineering educators find UDPs to be successful in the context of social distancing, more stakeholders might decide to integrate distance learning into their respective programs. -->
 
 ## Online Degree Programs
 
-Finally, let's consider fully accredited online degree programs (ODPs). Many well-established public (e.g., Ohio State) and private (e.g., Columbia) institutions offer ODPs in engineering. With respect to online engineering degrees, the emphasis appears to be on Master's degrees. U.S. News publishes a list of "[Best Online Master's in Engineering Programs](https://www.usnews.com/education/online-education/engineering/rankings?online-program-type=online)," and a search on the 2020 list filtered for "100% Online" returns 76 schools, of which 57 are public universities, 18 are private, and 1 is for-profit. A similar search for "[Best Online Bachelor's Programs](https://www.usnews.com/education/online-education/bachelors/rankings?major=Engineering%2C+General&mode=table)" with the "Engineering, General" filter returns only 5 schools (4 public, 1 private). Another site,bestdegreeprograms.org, claims to have [a list of the 25 best online engineering bachelor's programs](https://www.bestdegreeprograms.org/top-schools/online-bachelors-in-engineering) which they claim to have winnowed down from 85 programs, but they do not produce this full list. 
+Finally, let's consider fully accredited online degree programs (ODPs). Many well-established public (e.g., Ohio State) and private (e.g., Columbia) institutions offer ODPs in engineering. 
 
-From an accessibility perspective, ODPs might offer a means for folks living far from population centers to get a solid engineering education (see Figure 5 for some first-order support for this claim).
+**Effectiveness**: Here, I will refer to the initial discussion on effectiveness. These ODPs can be just as instructionally effective as in-person programs provided that instructors consider the unique challenges of online pedagogy and that administration implements strong online support systems for the enrollees [[8]](#r8). 
+
+**Accreditation**: With respect to online engineering degrees, the emphasis appears to be on Master's degrees. U.S. News publishes a list of "[Best Online Master's in Engineering Programs](https://www.usnews.com/education/online-education/engineering/rankings?online-program-type=online)," and a search on the 2020 list filtered for "100% Online" returns 76 schools, of which 57 are public universities, 18 are private, and 1 is for-profit. A similar search for "[Best Online Bachelor's Programs](https://www.usnews.com/education/online-education/bachelors/rankings?major=Engineering%2C+General&mode=table)" with the "Engineering, General" filter returns only 5 schools (4 public, 1 private). Another site,bestdegreeprograms.org, claims to have [a list of the 25 best online engineering bachelor's programs](https://www.bestdegreeprograms.org/top-schools/online-bachelors-in-engineering) which they claim to have winnowed down from 85 programs, but they do not produce this full list. 
+
+**Accessibility**: From an accessibility perspective, ODPs might offer a means for folks living far from population centers to get a solid engineering education (see Figure 5 for some first-order support for this claim).
 
 ---
 ![Search interest over state population][interest_pop]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
@@ -262,7 +291,7 @@ From an accessibility perspective, ODPs might offer a means for folks living far
 
 ---
 
-Deming. et al touch on both questions of financial accessibility of ODPs [[6]](#r6); the 2015 paper claims that schools which are predominantly "Online" have tuition costs which are trending *downward*, which contrasts with in-person schools whose tuition costs have leveled off on average (Figure 6).
+Deming. et al discuss financial accessibility of ODPs [[6]](#r6); the 2015 paper claims that schools which are predominantly "Online" have tuition costs which are trending *downward*, which contrasts with in-person schools whose tuition costs have leveled off on average (Figure 6).
 
 ---
 ![Trends in tuition by institution type][aea_fig]{:.mx-auto.d-block.img-fluid.max-width: 100%;}
@@ -275,7 +304,7 @@ Furthermore, Goodman et. al [[7]](#r7) demonstrate that an online computer engin
 
 > Our causal evidence shows that this online option expands access to education and does not substitute for other informal training... This is the first rigorous evidence that we know of showing that an online degree program can increase educational attainment, implying that the higher education market had previously been failing to meet demand for this particular bundle of program characteristics.
 
-In terms of robustness to external shocks, the same argument applied to UCPs applies to accredited programs. UDPs might suffer more in the wake of Black Swan events, as they likely involve more synchronous activity between instructors and students than do UCPs.
+<!-- In terms of robustness to external shocks, the same argument applied to UCPs applies to accredited programs. UDPs might suffer more in the wake of Black Swan events, as they likely involve more synchronous activity between instructors and students than do UCPs. -->
 
 ## Coda: Bricks vs. Bits
 
@@ -289,6 +318,8 @@ But going to university is not all about gaining technical skills, which (as dis
 
 I think if online engineering education is to take off in any meaningful way, educators need to figure out how to provide these intangibles. Programs like the [Minerva Schools](https://www.minerva.kgi.edu/) are examples of what institutions might do to marry a distributed, online educational model with global cultural immersion.
 
+With regards to accessibility, Minerva might circumvent mere financial barriers and make education more broadly accessible; the school boasts an admissions process which "eliminates unfair biases," by eliminating evaluation of standardized tests (e.g., SAT, ACT), gender/ethnicity, financial status, or legacy status.
+
 Some engineering disciplines face distinct challenges in making such progressive online programs work, and if we hope to make engineering education effective, accessible, and robust while still exposing young adults to a diversity of worldviews, then we must make them work.
 
 ## References
@@ -300,6 +331,8 @@ Some engineering disciplines face distinct challenges in making such progressive
 - <a name='r5'>[5]</a> M. Clarà, "How Instruction Influences Conceptual Development: Vygotsky's Theory Revisited," Educational Psychologist, 52:1, 50-62, DOI: 10.1080/00461520.2016.1221765. 2017.
 - <a name='r6'>[6]</a> D.J. Deming, C. Goldin, L.F. Katz, and N. Yuchtman, "Can Online Learning Bend the Higher Education Cost Curve?" American Economic Review, 105 (5): 496-501. 2015.
 - <a name='r7'>[7]</a> J. Goodman, J. Melkers, and A. Pallais. "Can Online Delivery Increase Access to Education?" Journal of Labor Economics 2019 37:1, 1-34, 2019.
+- <a name='r8'>[8]</a> D. Xu and S. Jaggars. "Online and hybrid course enrollment and performance in Washington State community and technical colleges." 2011. https://doi.org/10.7916/D8862QJ6
+- <a name='r9'>[9]</a> D. Jenkins. Redesigning community colleges for completion: Lessons from research on high performance organizations (CCRC Working Paper No. 24, Assessment of Evidence Series). New York, NY: Columbia University, Teachers College, Community College Research Center. 2011.
 
 
 [eCornell]: /images/blog/2020/03/17/eCornell.PNG
