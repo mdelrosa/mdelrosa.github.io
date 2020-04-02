@@ -26,13 +26,15 @@ In a typical Lab setting, there are a few behaviors that do not intuitively map 
 
 However, in Zoom meetings, most participants mute their audio and video, preventing these cues from being detected. Self-muting is courteous for most online meetings (lectures, seminars, etc.) but detrimental to spontaneous collaboration needed for labs. 
 
-To encourage students to collaborate, we are trying Zoom's [breakout room feature](https://support.zoom.us/hc/en-us/articles/206476313-Managing-Breakout-Rooms). I randomly assign students to breakout rooms, and if they are in the lab meeting to do work, I ask them to enter the breakout room. I cycle through the breakout rooms to see how students are doing, and if a student "raises their hand" [(a Zoom feature)](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar), then I can see that they need assistance.
+To encourage students to collaborate, we are trying Zoom's [breakout room feature](https://support.zoom.us/hc/en-us/articles/206476313-Managing-Breakout-Rooms). The TA randomly assign students to breakout rooms, and after the TA has introduced the week's Lab assignment, they ask them to enter a breakout room. If a student "raises their hand" [(a Zoom feature)](https://support.zoom.us/hc/en-us/articles/205566129-Raise-Hand-In-Webinar), then the TA knows where their attention is needed.
 
 ![Main room/breakout room workflow][zoom]{:.mx-auto.d-block.img-fluid.img-small.max-width: 100%;}
 <center>
-<small>Figure 1: Relationship between the "Main Session" in Zoom and the "Breakout Rooms." In our lab, the Main Session is where the TA will typically be, but he/she will move between breakout rooms (where the students are working) depending on whether someone is raising their hand.</small></center><br>
+<small>Figure 1: Relationship between the "Main Session" in Zoom and the "Breakout Rooms." In Breakout Rooms, students will leave audio and video unmuted. The TA will typically be in the Main Session, but he/she will move between breakout rooms (where the students are working) depending on whether someone is raising their hand.</small></center><br>
 
-We suspect that in the context of a smaller group, students will feel more comfortable unmuting themselves, allowing for more spontaneous vocal and visual cues and better collaboration.
+The meeting host is able to move between Breakout Rooms, so the TA can systematically "move" around the lab to check in with students.
+
+Breakout Rooms in Zoom are limited to 3 to 4 people, and in a smaller group, students will be comfortable unmuting themselves, allowing for more spontaneous vocal and visual cues and better collaboration.
 
 **Point 2** is complicated by the high variance in students' audio-visual equipment. Typically, students will just use their integrated web-cam, which does not always have good auto-focusing features, meaning when they hold their circuit up to the camera, it will often come out as blurry.
 
