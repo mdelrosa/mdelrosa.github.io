@@ -50,6 +50,6 @@ This may cause more frustration than it is worth if the camera is not steady. If
 
 Of course, getting a better view of the students' circuit does not let a TA or classmate point directly at the circuit -- but getting good visuals is the first step to helping students debug.
 
-[zoom]: /images/blog/2020/04/01/zoom-breakout.PNG
+[zoom]: /images/blog/2020/04/01/zoom-breakout.png
 [phone]: /images/blog/2020/04/01/phone-setup.JPG
-[mount]: /images/blog/2020/04/01/mount.JPG
+[mount]: /images/blog/2020/04/01/mount.jpg
